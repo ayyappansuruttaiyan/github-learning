@@ -1,0 +1,21 @@
+body {
+  background-color: aliceblue;
+}
+.box-part {
+  background-color: white;
+  margin-top: 60px;
+  padding: 30px 10px;
+}
+
+fa {
+  color: blue;
+}
+a {
+  border-bottom: 1px soid blue;
+}
+p {
+  margin-top: 20px;
+}
+.box {
+  padding: 60px 0px;
+}
