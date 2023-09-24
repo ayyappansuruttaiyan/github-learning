@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  position: relative;
+  padding: 9rem;
+  width: 85%;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.player {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.btn {
+  text-transform: uppercase;
+  padding: 1rem;
+  display: block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.btn--reset {
+  bottom: 5%;
+  position: absolute;
+  left: 50%;
+}
+.score {
+  font-size: 6rem;
+  margin-top: 2rem;
+}
+.name {
+  font-size: 3rem;
+}
+.dice-img {
+  position: absolute;
+  left: 50%;
+  width: 10rem;
+}
+.title {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.hidden {
+  display: none;
+}
+.player--active {
+  background-color: greenyellow;
+}
+.winner-board {
+  margin-top: 2rem;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  font-size: 5rem;
+  font-weight: 600;
+}
